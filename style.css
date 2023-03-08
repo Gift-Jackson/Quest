@@ -37,6 +37,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
+    backdrop-filter:blur(60px);
 }
 
 /* Navigation Links */
